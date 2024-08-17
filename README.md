@@ -62,7 +62,3 @@ For any inquiries or support, please contact the maintainer at:
 ## License
 
 This project is licensed under the MIT License.
-
----
-
-This library simplifies the process of generating Docker Compose files from your current Docker environment, making container management easier and more efficient.
