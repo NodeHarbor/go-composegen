@@ -1,6 +1,6 @@
 # ComposeGen
 
-**go composegen** is a Go library that generates a Docker Compose file from existing Docker containers. This library inspects running containers, gathers configuration details, and creates a `docker-compose.yml` file that can be used to redeploy the containers. It supports filtering containers based on names, generating associated networks and volumes, and exporting the result in YAML format.
+**go-composegen** is a Go library that generates a Docker Compose file from existing Docker containers. This library inspects running containers, gathers configuration details, and creates a `docker-compose.yml` file that can be used to redeploy the containers. It supports filtering containers based on names, generating associated networks and volumes, and exporting the result in YAML format.
 
 ## Features
 
@@ -15,7 +15,7 @@
 1. Import ComposeGen in your Go project:
 
 ```go
-import "github.com/yourusername/composegen"
+import "github.com/nodeharbor/go-composegen"
 ```
 
 2. Use the `GenerateComposeFile` function to generate a Compose file:
@@ -51,7 +51,7 @@ This will generate a Docker Compose file for all running containers and include 
 To install the library, use `go get`:
 
 ```bash
-go get github.com/yourusername/composegen
+go get github.com/nodeharbor/go-composegen
 ```
 
 ## Contact
@@ -62,7 +62,3 @@ For any inquiries or support, please contact the maintainer at:
 ## License
 
 This project is licensed under the MIT License.
-
----
-
-This library simplifies the process of generating Docker Compose files from your current Docker environment, making container management easier and more efficient.
