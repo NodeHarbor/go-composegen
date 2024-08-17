@@ -15,7 +15,7 @@
 1. Import ComposeGen in your Go project:
 
 ```go
-import "github.com/yourusername/composegen"
+import "github.com/nodeahrbor/go-composegen"
 ```
 
 2. Use the `GenerateComposeFile` function to generate a Compose file:
