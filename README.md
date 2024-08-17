@@ -51,7 +51,7 @@ This will generate a Docker Compose file for all running containers and include 
 To install the library, use `go get`:
 
 ```bash
-go get github.com/yourusername/composegen
+go get github.com/nodeharbor/go-composegen
 ```
 
 ## Contact
